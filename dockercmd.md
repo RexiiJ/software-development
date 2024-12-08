@@ -9,7 +9,9 @@ ls -lart
 # Comand to build your image
  $ docker build -t feyiimage .
 
+# To remove docker images individually
   docker rmi image seunimage
+  docker rmi image busimg ratimg
 # ======================================================================================================
 # Apply force to delete 1st, 2nd, 3rd, 4th
  $ docker images purge
